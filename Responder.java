@@ -32,8 +32,8 @@ public class Responder
      */
     public Responder()
     {
-        responseMap = new HashMap<>();
-        defaultResponses = new ArrayList<>();
+        responseMap = new HashMap<String, String>();
+        defaultResponses = new ArrayList<String>();
         fillResponseMap();
         fillDefaultResponses();
         randomGenerator = new Random();
